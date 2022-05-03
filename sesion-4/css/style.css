@@ -1,0 +1,17 @@
+/* De manera universal se aplique un color a vuestra elección para el texto.
+Los elementos que tengan la class miparrafo deberán presentar su texto en cursiva. */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    color: #0d0d0d;
+}
+
+body{
+    background-color: #f2f2f2;
+
+}
+
+.miparrafo{
+    font-style: italic;
+}
