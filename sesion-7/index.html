@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sesion 7</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- <h1>Sesion 7</h1>
+    <p>En este ejercicio deberéis crear una página con un formulario de inicio de sesión, está pagina tendrá:
+        Una imagen de fondo.
+        Un formulario de inicio de sesión, contendrá mail y contraseña, un recuadro seleccionable de "Acepto términos y condiciones" y un botón de enviar.
+        Validación de campos.</p> -->
+    <section class="container">
+        <form action="POST" class="container-form">
+            <h1>Formulario de login</h1>
+
+            <div class="container-form__input">
+                <label for="mail">Mail</label>
+                <input type="email" name="mail" id="mail" placeholder="Introduce tu mail">
+            </div>
+
+            <div class="container-form__input">
+                <label for="pass">Contraseña</label>
+                <input type="password" name="pass" id="pass" placeholder="Introduce tu contraseña">
+            </div>
+
+            <div class="container-form__terminos">
+                <label for="terminos">Acepto términos y condiciones</label>
+                <input type="checkbox" name="terminos" id="terminos">
+            </div>
+            <div class="container-form__button">
+                <button type="submit">Enviar</button>
+            </div>
+        </form>
+    </section>
+
+</body>
+
+</html>
